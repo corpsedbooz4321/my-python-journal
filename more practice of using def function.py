@@ -35,8 +35,8 @@
 
 def computegrade(score):
     # print("in computegrade", score)
-    if score > 1.0:          #for the input greater than 1.0
-        print("invalid score")
+    if score > 1.0 or score < 0.0:          #for the input greater than 1.0
+        return "invalid score"
     elif score >= 0.9:
         return "A"
     elif score >= 0.8:
@@ -47,12 +47,13 @@ def computegrade(score):
         return "D"
     elif score < 0.6:
         return "F"
-    else:
-        print("score can't be in negative!") #for the inputs less than 0.0.
-    return score
+    # return score
 
 score = float(input("Enter your score: "))
 
 result = computegrade(score)
 
-print("Grade:",result)
+if result == "invalid score":
+    print("invalid score")
+else:
+    print("Grade:",result)
