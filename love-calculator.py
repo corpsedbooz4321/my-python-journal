@@ -22,6 +22,8 @@ while True:
         if not boy.replace(" ","").isalpha():
             raise ValueError
         girl = input("Enter your Girlfriend's name🚺: ")
+        if not girl.replace(" ", "").isalpha():
+            raise ValueError
         print("\nKEEP IN MIND THAT THIS IS JUST A SIMULATOR❗")
         input("\nto view the love score press enter..")
         print("==========YOUR LOVE SCORE==========")
