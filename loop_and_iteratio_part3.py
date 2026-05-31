@@ -1,6 +1,6 @@
 # #python basic loop.
 #===============================================================================================================================
-#to run all this code you have to comment other codes except one you want to use.
+#to run all this code you have to commentout other codes except one you want to use.
 print("Before")
 for thing in [9, 42, 33, 55,33,]:
     print(thing)
