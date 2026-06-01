@@ -12,19 +12,21 @@
 largest = None
 smallest = None
 while True:
-    '''taking input form the user!'''
-    val_ = input('Enter a number: ')
-    if val_ == 'done':
+    '''taking a endless input from the user until the user types "done".'''
+    count_ = input('Enter a number: ')
+    if count_ == 'done':
         break
     try:
-        sval_= int(val_)
-        if largest is None or sval_ > largest:
-            largest = sval_
-        elif smallest is None or sval_ < smallest:
-            smallest = sval_
+        cal_ = int(count_)
+        if largest is None or cal_ > largest:
+            largest = cal_
+        elif smallest is None or cal_ < smallest:
+            smallest = cal_
     except:
-        print('INVALID INPUT')
-print('Maximum is', largest)
-print('Minimum is', smallest)
+        print("Invalid input")
+print('Maximum', largest)
+print('Minimum', smallest)
+
+
 
    
