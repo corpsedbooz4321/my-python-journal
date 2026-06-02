@@ -1,7 +1,7 @@
-# fruit = 'banana'
-# letter = fruit[3]
-# print(letter)
-# print(len(fruit))
+fruit = 'banana'
+letter = fruit[3]
+print(letter)
+print(len(fruit))
 
 fruit = 'banana'
 index = 0
@@ -10,3 +10,15 @@ while index < len(fruit):
     print(index, letter)
     index = index + 1
  
+
+fruit = '145434323465'
+for letter in fruit:
+    print(letter)
+    
+
+word = 'adityasharma'
+count = 0
+for letter in word:
+    if letter == 'a':
+        count = count + 1
+print(count)
