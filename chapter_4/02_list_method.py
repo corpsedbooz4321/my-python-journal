@@ -17,3 +17,4 @@ l1.insert(4, 48475939)
 print(l1)
 
 l1.pop()
+print(friends)
