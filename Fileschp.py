@@ -28,8 +28,8 @@ the file and "w" if we are going to write to the file.'''
 
 ##example and practices.
 
-# farm = open('mbox.txt')
-# print(farm)
+farm = open('mbox.txt')
+print(farm)
 
 #WHEN FILES ARE MISSING.
 '''farm = open('stuff.txt')
