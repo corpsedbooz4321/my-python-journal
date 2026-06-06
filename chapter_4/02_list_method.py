@@ -19,5 +19,5 @@ l1 = [34, 54, 55, 484, 94]
 # print(l1.pop(3))
 # print(l1)
 
-l1.remove(2)
-print(l1)
+# l1.remove(2)
+# print(l1)
