@@ -6,152 +6,183 @@ Welcome to my Python learning journey! This repository documents my progressive 
 
 ## 📈 Learning Progress Timeline
 
-### **Phase 1: Fundamentals - Basic Input, Output & Arithmetic**
+### **Phase 1: Fundamentals - Input, Output, Strings & Escape Sequences**
 
 #### 📅 [ex.2.py](ex.2.py)
-- **Date:** May 15, 2026
 - **Concept:** Input/Output and Basic Calculations
 - **Learned:**
-  - Using `input()` function to accept user data
-  - Converting strings to floats with `float()`
-  - Basic arithmetic operations
-  - `print()` for output
-- **Project:** Simple pay calculator (hours × rate)
+  - Using `input()` and `print()`
+  - Converting strings to numbers with `int()` and `float()`
+  - Arithmetic operations
+- **Project:** Simple pay calculator
+
+#### 📅 [01_str_function.py](01_str_function.py)
+- **Concept:** String functions and methods
+- **Learned:**
+  - Working with string manipulation
+  - Using built-in string methods
+- **Project:** String function practice
+
+#### 📅 [02_escape_sequence.py](02_escape_sequence.py)
+- **Concept:** Escape sequences
+- **Learned:**
+  - Newlines, tabs, and escaping characters
+  - Formatting text output
+- **Project:** Escape sequence examples
+
+#### 📅 [02_escape_sequence_problem.py](02_escape_sequence_problem.py)
+- **Concept:** Escape sequence problem practice
+- **Learned:**
+  - Applying escape characters in real examples
+  - Formatting multi-line output
+
+#### 📅 [escape_sequence_problems.py](escape_sequence_problems.py)
+- **Concept:** Advanced escape sequence practice
+- **Learned:**
+  - More complex string formatting
+  - Problem-based learning with text output
+
+#### 📅 [slicingstrings.py](slicingstrings.py)
+- **Concept:** String slicing
+- **Learned:**
+  - Extracting substrings
+  - Indexing and slicing syntax
+
+#### 📅 [chp6 strings.py](chp6%20strings.py)
+- **Concept:** String operations and methods
+- **Learned:**
+  - Character access and string processing
+  - Practical string examples
 
 ---
 
 ### **Phase 2: Conditional Logic**
 
 #### 📅 [conditional steps.py](conditional%20steps.py)
-- **Date:** May 17, 2026
-- **Concept:** If-Elif-Else Statements
+- **Concept:** If/Elif/Else statements
 - **Learned:**
-  - Basic conditional branching
-  - Multiple comparison operators (<, >, ==)
-  - Range-based conditions
-  - Nested conditional logic
-- **Project:** Number categorizer (small, medium, big, large, gigantic)
-
-#### 📅 [ex.3.3.py](ex.3.3.py)
-- **Date:** May 17, 2026
-- **Concept:** Grading System with Elif Chains
-- **Learned:**
-  - Elif chains for multiple conditions
-  - Score-to-grade conversion logic (0.9→A, 0.8→B, etc.)
-  - Handling edge cases with else
-- **Project:** Grade calculator (academic grading system)
+  - Conditional branching
+  - Comparison operators
+  - Nested conditions
+- **Project:** Number categorizer
 
 #### 📅 [ex.3.1.py](ex.3.1.py)
-- **Date:** May 18, 2026
-- **Concept:** Complex Conditional Logic
+- **Concept:** Complex conditional logic
 - **Learned:**
-  - Multi-level conditional logic
-  - Overtime pay calculation (time-and-a-half for hours > 40)
-  - Multiple solution approaches to same problem
-  - Code comments for documentation
-- **Project:** Payroll calculator with overtime handling
+  - Multiple condition layers
+  - Overtime pay calculations
+  - Conditional design patterns
+- **Project:** Payroll calculator
+
+#### 📅 [ex.3.3.py](ex.3.3.py)
+- **Concept:** Grading system with elif chains
+- **Learned:**
+  - Grade mapping logic
+  - Handling edge cases
+- **Project:** Academic grade calculator
+
+#### 📅 [03_problems.py](03_problems.py)
+#### 📅 [04_problem.py](04_problem.py)
+#### 📅 [05_problem.py](05_problem.py)
+#### 📅 [questionsbasesdon5.2.py](questionsbasesdon5.2.py)
+- **Concept:** Conditional practice and problem solving
+- **Learned:**
+  - Applying conditionals to many small problems
+  - Strengthening logical reasoning
 
 ---
 
 ### **Phase 3: Functions & Modular Programming**
 
 #### 📅 [chp4.part1.py](chp4.part1.py)
-- **Date:** May 20, 2026
-- **Concept:** Defining and Calling Functions
+- **Concept:** Defining and calling functions
 - **Learned:**
-  - Function definition with `def` keyword
-  - Calling functions multiple times
-  - Function parameters and arguments
-  - Introduction to built-in functions like `max()`
-  - Language-based greetings function
-- **Project:** Greeting function with language selection
+  - Creating reusable functions
+  - Passing arguments and using parameters
+  - Returning values
+- **Project:** Language-based greeting function
 
 #### 📅 [ex.4.6.py](ex.4.6.py)
-- **Date:** May 21, 2026
-- **Concept:** Functions with Return Values
+- **Concept:** Functions with return values
 - **Learned:**
-  - Creating reusable functions with parameters
-  - Using `return` statement
-  - Function return values in calculations
-  - Code organization and separation of concerns
-  - Test-driven logic (45 hrs @ $10.50/hr = $498.75)
-- **Project:** Compute pay function with overtime logic
+  - Encapsulating logic in functions
+  - Using `return` in calculations
+  - Clean code organization
+- **Project:** Pay calculator function
 
 #### 📅 [more practice of using def function.py](more%20practice%20of%20using%20def%20function.py)
-- **Date:** May 22, 2026
-- **Concept:** Function Practice & Grade Calculation
+- **Concept:** Function practice
 - **Learned:**
   - Combining functions with conditionals
-  - Practical scoring systems
-  - Score-to-grade mapping (≥0.9→A, ≥0.8→B, etc.)
-  - Function requirements and specifications
-- **Project:** Grade computation function
+  - Writing reusable logic
+
+#### 📅 [Fileschp.py](Fileschp.py)
+- **Concept:** File and function practice
+- **Learned:**
+  - Structuring code across examples
+  - Additional function-based exercises
 
 ---
 
 ### **Phase 4: Loops & Iteration**
 
 #### 📅 [loop and iteration chp5.py](loop%20and%20iteration%20chp5.py)
-- **Date:** May 23, 2026
-- **Concept:** While Loops & Loop Control
+- **Concept:** While loops and loop control
 - **Learned:**
-  - `while` loop syntax and logic
-  - `break` statement (exit loop)
-  - `continue` statement (skip to next iteration)
-  - Infinite loops with conditions
-  - User input validation in loops
-- **Project:** Loop control practice with user input
+  - `while` loops and iteration
+  - `break` and `continue`
+  - Input validation inside loops
+
+#### 📅 [loop_and_iteratio_part3.py](loop_and_iteratio_part3.py)
+#### 📅 [idiom loops.py](idiom%20loops.py)
+- **Concept:** Loop practice and idioms
+- **Learned:**
+  - Loop patterns and common constructs
+  - Problem-solving with loops
+
+#### 📅 [ex.5.2.py](ex.5.2.py)
+#### 📅 [ex.6.5.py](ex.6.5.py)
+- **Concept:** Loop exercises
+- **Learned:**
+  - Using loops to solve practical problems
 
 ---
 
 ### **Phase 5: Exception Handling**
 
 #### 📅 [try and except.py](try%20and%20except.py)
-- **Date:** May 24, 2026
-- **Concept:** Error Handling with Try-Except
+- **Concept:** Error handling with try/except
 - **Learned:**
-  - Try-except blocks for error handling
-  - Type conversion with error catching
+  - Safely handling invalid input
+  - Preventing runtime crashes
   - Graceful fallback values
-  - Preventing program crashes from invalid input
-- **Project:** Safe integer conversion with fallbacks
 
 ---
 
 ### **Phase 6: Integration Projects**
 
 #### 📅 [simple-interest-calculator.py](simple-interest-calculator.py)
-- **Date:** May 25, 2026
-- **Concept:** Loops + Conditionals + Math
+- **Concept:** Loops + conditionals + math
 - **Learned:**
-  - Combining while loops with user choice
-  - Formula implementation (SI = P×R×T/100)
-  - User-controlled program flow
-  - Input validation (Y/N choices)
-  - Real-world application design
-- **Project:** Financial calculator with repeat functionality
+  - Combining multiple concepts
+  - Input-driven program flow
+  - Formula implementation
+- **Project:** Financial interest calculator
 
 #### 📅 [love-calculator.py](love-calculator.py)
-- **Date:** May 26, 2026
-- **Concept:** Random Module & UI/UX
+- **Concept:** Random module and user experience
 - **Learned:**
-  - `import random` module
-  - `random.randint()` function
-  - Multiple string outputs with emojis
-  - Creating engaging user experiences
-  - Conditional output based on score ranges
-- **Project:** Fun love compatibility calculator
+  - `random.randint()`
+  - Conditional output design
+  - Playful UI with text feedback
+- **Project:** Love compatibility calculator
 
 #### 📅 [#Traffuc light code.py](#Traffuc%20light%20code.py)
-- **Date:** May 27, 2026
-- **Concept:** Functions + Loops + Conditionals Integration
+- **Concept:** Traffic light simulator
 - **Learned:**
-  - Combining all learned concepts
-  - Case-insensitive input with `.lower()`
-  - Function-based program structure
-  - Infinite loop with user interaction
-  - Real-world abstraction (traffic light states)
-- **Project:** Traffic light simulator with color control
+  - Combining functions, loops, and conditionals
+  - Case-insensitive input handling
+  - Simulating state-based behavior
 
 ---
 
@@ -159,37 +190,56 @@ Welcome to my Python learning journey! This repository documents my progressive 
 
 | Phase | Topic | Files | Status |
 |-------|-------|-------|--------|
-| 1 | Input/Output & Arithmetic | ex.2.py | ✅ |
-| 2 | Conditional Statements | conditional steps.py, ex.3.3.py, ex.3.1.py | ✅ |
-| 3 | Functions | chp4.part1.py, ex.4.6.py, more practice... | ✅ |
-| 4 | Loops & Iteration | loop and iteration chp5.py | ✅ |
+| 1 | Input/Output, Strings & Escape Sequences | ex.2.py, 01_str_function.py, 02_escape_sequence.py, 02_escape_sequence_problem.py, escape_sequence_problems.py, slicingstrings.py, chp6 strings.py | ✅ |
+| 2 | Conditional Statements | conditional steps.py, ex.3.1.py, ex.3.3.py, 03_problems.py, 04_problem.py, 05_problem.py, questionsbasesdon5.2.py | ✅ |
+| 3 | Functions | chp4.part1.py, ex.4.6.py, more practice of using def function.py, Fileschp.py | ✅ |
+| 4 | Loops & Iteration | loop and iteration chp5.py, loop_and_iteratio_part3.py, idiom loops.py, ex.5.2.py, ex.6.5.py | ✅ |
 | 5 | Exception Handling | try and except.py | ✅ |
 | 6 | Integration Projects | simple-interest-calculator.py, love-calculator.py, #Traffuc light code.py | ✅ |
 
 ---
 
+## 📊 Expanded Practice Files
+
+- `01_str_function.py`
+- `02_escape_sequence.py`
+- `02_escape_sequence_problem.py`
+- `03_problems.py`
+- `04_problem.py`
+- `05_problem.py`
+- `Fileschp.py`
+- `chp6 strings.py`
+- `escape_sequence_problems.py`
+- `ex.5.2.py`
+- `ex.6.5.py`
+- `idiom loops.py`
+- `loop_and_iteratio_part3.py`
+- `questionsbasesdon5.2.py`
+- `slicingstrings.py`
+
+---
+
 ## 📊 Key Milestones Achieved
 
-✨ **May 15-18**: Mastered input/output and conditional logic  
+✨ **May 15-18**: Mastered input/output, strings, and conditional logic  
 ✨ **May 20-22**: Developed understanding of functions and modularity  
-✨ **May 23**: Added loop control to toolkit  
-✨ **May 24**: Learned error handling for robust code  
-✨ **May 25-27**: Successfully integrated all concepts into practical projects  
+✨ **May 23-24**: Added loop control and error handling to the toolkit  
+✨ **May 25-27**: Successfully integrated concepts into real projects  
 
 ---
 
 ## 💡 Key Concepts Covered
 
-- ✅ Variables and Data Types (int, float, string)
+- ✅ Variables and Data Types (`int`, `float`, `str`)
 - ✅ Input/Output Operations
-- ✅ Conditional Statements (if, elif, else)
-- ✅ Functions (definition, parameters, return values)
-- ✅ Loops (while, break, continue)
-- ✅ Exception Handling (try, except)
-- ✅ Modules (random)
-- ✅ String Methods (.lower())
-- ✅ Mathematical Calculations
-- ✅ User Interaction & Program Flow Control
+- ✅ String Methods and Escape Sequences
+- ✅ Conditional Statements (`if`, `elif`, `else`)
+- ✅ Functions (`def`, parameters, `return`)
+- ✅ Loops (`while`, `for`, `break`, `continue`)
+- ✅ Exception Handling (`try`, `except`)
+- ✅ Modules (`random`)
+- ✅ User Interaction and Program Flow
+- ✅ Basic Math and Real-world Calculations
 
 ---
 
@@ -197,11 +247,11 @@ Welcome to my Python learning journey! This repository documents my progressive 
 
 - Object-Oriented Programming (Classes, Objects)
 - List and Dictionary Operations
-- File I/O
+- File I/O and Data Persistence
 - More Complex Algorithms
 - External Libraries and APIs
 
 ---
 
-*Last Updated: May 28, 2026*  
-*Total Files: 13 | Learning Duration: ~2 weeks | Progression: Beginner → Intermediate*
+*Last Updated: June 7, 2026*  
+*Total Files: 29 (including README files) | Total Code Files: 27*
