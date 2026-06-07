@@ -3,6 +3,8 @@ a = int(input("Enter age: "))
 #if staatement no. 1
 if (a%2 == 0):
     print("a is even")
+else:
+    print("a is odd")
 #end of statement no.1
 
 #if statement no. 2
