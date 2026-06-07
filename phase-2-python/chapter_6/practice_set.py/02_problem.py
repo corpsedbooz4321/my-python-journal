@@ -10,19 +10,19 @@ and take marks as an iput form the user'''
 #         return False, total_percentage
 
 
-mk = int(input("Enter the marks of first subject : "))
-mp = int(input("Enter the marks of second subject : "))
-mc = int(input("Enter the marks of third subject : "))
+# mk = int(input("Enter the marks of first subject : "))
+# mp = int(input("Enter the marks of second subject : "))
+# mc = int(input("Enter the marks of third subject : "))
 
-if mk > 100 or mc > 100 or mp > 100:
-    print("invalid marks")
-else:
-    is_passed, percentage = check_result(mk, mp, mc)
+# if mk > 100 or mc > 100 or mp > 100:
+#     print("invalid marks")
+# else:
+#     is_passed, percentage = check_result(mk, mp, mc)
 
-    if is_passed:
-        print(f"Congratulations! You passed. Total percentage: {percentage:.2f}%")
-    else:
-        print(f"Sorry, you failed. Total percentage: {percentage:.2f}%")
+#     if is_passed:
+#         print(f"Congratulations! You passed. Total percentage: {percentage:.2f}%")
+#     else:
+#         print(f"Sorry, you failed. Total percentage: {percentage:.2f}%")
 
    
 
