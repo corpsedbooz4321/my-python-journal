@@ -10,12 +10,20 @@ def name_check():
     else:
         print("The given name is not present in the list!")
 def list_update():
-    name1 = input("Enter a name to add: ").lower()
-    l.append(name1)
-    print(f"{name1} has been added to the list!")
+    while True:   
+      name1 = input("\nEnter a name to add or (q)exit: ").lower()
+      if name1 == "q":
+          print("\nreturning to main menu..")
+          menu()
+          break
+      l.append(name1)
+      print(f"{name1} has been added to the list!")
+
+
+
 
 def menu():
-    print("(y) to check, if the name is present in the list or not.")
+    print("\n(y) to check, if the name is present in the list or not.")
     print("(n) to update or add a name in the list.")
     print("(q) to exit.")
 menu()
