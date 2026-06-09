@@ -1,5 +1,7 @@
 # My Python Journal
 
+**Last Updated:** June 10, 2026
+
 Welcome to my Python learning repository. This project stores code exercises and practice projects organized into two main phases:
 
 - `phase_1_python/` — beginner Python fundamentals and integration practice
@@ -42,23 +44,43 @@ Key files:
 This folder also contains its own `README.md` summarizing the Phase 1 learning journey.
 
 ### `phase-2-python/`
-Covers list and tuple topics in `chapter_4/`, and dictionary/set topics in `chapter_5/`.
+Covers intermediate Python topics organized by chapter:
 
-#### `phase-2-python/chapter_4/`
+#### `phase-2-python/chapter_4/` — Lists and Tuples
 - `01_lists.py`
 - `02_list_method.py`
 - `03_tuples.py`
 - `04_tuples_methods.py`
-- `practiceset.py`
+- `practiceset.py/` — practice exercises
 - `README.md`
 
-#### `phase-2-python/chapter_5/`
+#### `phase-2-python/chapter_5/` — Dictionaries and Sets
 - `01_dict.py`
 - `02_dict_methods.py`
 - `03_dictionary_methods.py`
 - `04_sets.py`
 - `05_set_methods.py`
-- `practice_set.py`
+- `practice_set.py/` — practice exercises
+
+#### `phase-2-python/chapter_6/` — Conditional Statements
+- `01_conditional_steps.py`
+- `02_if_elilf_else_ladder.py`
+- `03_multiple_if_statements.py`
+- `practice_set.py/` — practice exercises
+
+#### `phase-2-python/chapter_7/` — Loops
+- `01_loops.py`
+- `02_list_using_while_loops.py`
+- `03_while_loops.py`
+- `04_for_loops.py`
+- `05_for_loop_iterate.py`
+- `06_break_continue.py`
+- `06_for_loop_with_else.py`
+- `practice_set.py/` — practice exercises
+
+#### `phase-2-python/chapter_8/` — Functions
+- `01_functions.py`
+- `functions_with_arguements.py`
 
 ---
 
@@ -74,11 +96,12 @@ Covers list and tuple topics in `chapter_4/`, and dictionary/set topics in `chap
 - Integration projects with small calculators and simulators
 
 ### Phase 2
-- Lists, list methods, and list exercises
-- Tuples and tuple methods
-- Dictionaries and dictionary methods
-- Sets and set methods
-- Practical exercises for each topic
+- **Chapter 4**: Lists, list methods, and list exercises; Tuples and tuple methods
+- **Chapter 5**: Dictionaries and dictionary methods; Sets and set methods
+- **Chapter 6**: Conditional statements (if, elif, else) and decision logic
+- **Chapter 7**: Loop structures (while loops, for loops, break, continue)
+- **Chapter 8**: Functions and function arguments
+- Practical exercises included for each chapter topic
 
 ---
 
@@ -100,4 +123,4 @@ Covers list and tuple topics in `chapter_4/`, and dictionary/set topics in `chap
 
 ---
 
-*Last updated: June 7, 2026*
+*Last updated: June 10, 2026*
