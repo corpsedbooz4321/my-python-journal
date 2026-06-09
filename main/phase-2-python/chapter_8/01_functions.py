@@ -23,7 +23,13 @@ def cal():
     xxx = input("Enter your name:  ")
     
     print((xx * xxx), end=" ")
-cal()
+
+
+
+
+for i in range(15):
+    cal()
+    
               
 
 
