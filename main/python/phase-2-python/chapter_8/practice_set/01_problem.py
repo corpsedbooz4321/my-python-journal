@@ -9,7 +9,7 @@ def greatest(a, b, c):
         return b
     if (c > a and c > b):
         return c
-a = 1
-b = 2
-c = 8568
-print(greatest(a, b, c))
+a = int(input('Enter your first number: '))
+b = int(input('Enter your esecond number: '))
+c = int(input('Enter your third number: '))
+print("The greatest number you entered is,", greatest(a, b, c))
