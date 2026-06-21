@@ -2,11 +2,13 @@
 # PYTHON FUNCTIONS - COMPREHENSIVE TEACHING CODE
 # ============================================
 
+
 # 1. BASIC FUNCTION WITHOUT ARGUMENTS
 # ====================================
 def greet():
     """Function with no arguments"""
     print("Hello! Welcome to Python Functions")
+
 
 # greet()  # Call it
 
@@ -16,6 +18,7 @@ def greet():
 def goodday(name):
     """Function with one argument"""
     print(f"Hello Mr. {name}")
+
 
 # goodday("Aditya")  # Call it
 
@@ -28,6 +31,7 @@ def add(a, b):
     print(f"{a} + {b} = {result}")
     return result
 
+
 # add(5, 3)
 
 
@@ -36,6 +40,7 @@ def add(a, b):
 def greet_with_age(name, age=18):
     """Function with default argument"""
     print(f"Hello {name}, you are {age} years old")
+
 
 # greet_with_age("Aditya")  # uses default age
 # greet_with_age("Aditya", 25)  # overrides default
@@ -46,6 +51,7 @@ def greet_with_age(name, age=18):
 def multiply(x, y):
     """Function that returns a value"""
     return x * y
+
 
 # result = multiply(4, 5)
 # print(f"Multiply result: {result}")
@@ -60,6 +66,7 @@ def get_user_info():
     city = "Delhi"
     return name, age, city
 
+
 # name, age, city = get_user_info()
 # print(f"{name} is {age} years old and lives in {city}")
 
@@ -73,6 +80,7 @@ def sum_all(*numbers):
         total += num
     return total
 
+
 # print(sum_all(1, 2, 3))  # 6
 # print(sum_all(1, 2, 3, 4, 5))  # 15
 
@@ -83,6 +91,7 @@ def print_details(**details):
     """Function that accepts keyword arguments"""
     for key, value in details.items():
         print(f"{key}: {value}")
+
 
 # print_details(name="Aditya", age=22, city="Delhi")
 
@@ -95,6 +104,7 @@ def full_function(name, *args, **kwargs):
     print(f"Args: {args}")
     print(f"Kwargs: {kwargs}")
 
+
 # full_function("Aditya", 1, 2, 3, age=22, city="Delhi")
 
 
@@ -103,7 +113,9 @@ def full_function(name, *args, **kwargs):
 def calculate_area(radius: float) -> float:
     """Function with type hints (Python 3.5+)"""
     import math
-    return math.pi * radius ** 2
+
+    return math.pi * radius**2
+
 
 # area = calculate_area(5.0)
 # print(f"Area: {area}")
@@ -113,10 +125,12 @@ def calculate_area(radius: float) -> float:
 # =====================================
 global_var = "I am global"
 
+
 def scope_example():
     local_var = "I am local"
     print(global_var)  # Can access global
-    print(local_var)   # Can access local
+    print(local_var)  # Can access local
+
 
 # scope_example()
 # print(global_var)  # Works
@@ -127,18 +141,20 @@ def scope_example():
 # ====================
 def outer_function():
     """Function containing another function"""
+
     def inner_function():
         print("I am inside outer function")
-    
+
     print("Outer function")
     inner_function()
+
 
 # outer_function()
 
 
 # 13. LAMBDA FUNCTIONS (ANONYMOUS FUNCTIONS)
 # ===========================================
-square = lambda x: x ** 2
+square = lambda x: x**2
 add_lambda = lambda a, b: a + b
 
 # print(square(5))  # 25
@@ -162,6 +178,7 @@ def calculator(a, b, operation):
     else:
         return "Invalid operation"
 
+
 # print(calculator(10, 5, "+"))  # 15
 # print(calculator(10, 5, "-"))  # 5
 
@@ -174,12 +191,14 @@ def interactive_greet():
     age = input("Enter your age: ")
     print(f"Hello {name}, you are {age} years old!")
 
+
 # interactive_greet()
 
 
 # ============================================
 # PRACTICE EXERCISES
 # ============================================
+
 
 # Exercise 1: Create a function that calculates factorial
 def factorial(n):
@@ -189,6 +208,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
+
 # print(f"Factorial of 5: {factorial(5)}")  # 120
 
 
@@ -197,10 +217,11 @@ def is_prime(n):
     """Check if a number is prime"""
     if n < 2:
         return False
-    for i in range(2, int(n ** 0.5) + 1):
+    for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
             return False
     return True
+
 
 # print(is_prime(17))  # True
 # print(is_prime(15))  # False
@@ -210,6 +231,7 @@ def is_prime(n):
 def reverse_string(s):
     """Reverse a string"""
     return s[::-1]
+
 
 # print(reverse_string("Aditya"))  # aytiidA
 
