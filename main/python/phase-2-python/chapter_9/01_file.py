@@ -4,7 +4,7 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # 2. Join that directory with your filename
-file_path = os.path.join(script_dir, 'file.txt')
+file_path = os.path.join(script_dir, "file.txt")
 
 # 3. Open the file safely using 'with'
 with open(file_path, "r") as f:
