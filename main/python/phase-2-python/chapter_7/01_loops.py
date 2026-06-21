@@ -5,18 +5,18 @@ print(4)
 print(5)
 print(6)
 
-#same task can be done in very efficient way.
-'''for loop**'''
+# same task can be done in very efficient way.
+"""for loop**"""
 for i in range(1, 10):
     xx = input("Enter your number: ")
 
 
-'''*while loop*'''
-while(i<7):
+"""*while loop*"""
+while i < 7:
     print(i)
-    i +=1
+    i += 1
 
-'''
+"""
 output
 1
 2
@@ -24,4 +24,4 @@ output
 4
 5
 6
-'''
+"""
