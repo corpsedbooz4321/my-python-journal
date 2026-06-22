@@ -4,12 +4,16 @@ replace this word with ####3 by updating the same file.
 
 
 
-word = "Donkey"
+words = "Donkey"
 
 with open("file.txt", "r") as f:
 	data = f.read()
 
-New_data = data.replace(word, "######")
+
+for word in words:
+    New_data = data.replace(word, "######")
+
+	
 
 with open("file.txt", "w") as f:
 	f.write(New_data)
