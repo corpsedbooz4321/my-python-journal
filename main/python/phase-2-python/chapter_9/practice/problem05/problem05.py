@@ -1,4 +1,4 @@
-words = ['Donkey', 'ganda', 'dihh', 'am']
+words = ['Donkey', 'ganda', 'dihh', 'type']
 
 
 with open('file.txt', "r") as f:
