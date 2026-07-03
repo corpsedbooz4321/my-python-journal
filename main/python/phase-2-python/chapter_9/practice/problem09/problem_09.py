@@ -11,11 +11,11 @@ if os.path.exists(path_file):#takes the content from the joined file "1st.txt"
     with open(path_file, "r") as f:
         data1 = f.read()#stores the sotres the content of the file 1st.txt in variable data1.
    
-#if os.path.exists(another_file):
+if os.path.exists(another_file):
     with open(another_file, "r") as f:
         data2 = f.read()
     
 if data1 == data2:
     print("file found with identical contents in it!")
 else:
-    print("Nothings wrong! files no files are found with same contents in it!")
+    print("Nothings wrong! files are not found with same contents in it!")
