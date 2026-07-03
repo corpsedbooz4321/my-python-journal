@@ -8,7 +8,7 @@ if os.path.exists(file_path):
         lines = file.readlines()
 line_no = 1
 for line in lines:
-    if "python" in lines:
+    if "python" in line:
         print(f"Yes python is present! line: {line_no}")
         break
     line_no += 1
