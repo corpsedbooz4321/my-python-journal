@@ -5,4 +5,4 @@ class Employee:
 
 aditya = Employee()
 aditya.language = "Java"  # Instance variable
-print(aditya.name, aditya.salary,aditya.language)  # Output: Java
+print(aditya.salary,aditya.language)  # Output: Java
