@@ -1,10 +1,10 @@
-'''Write a program  to store seven fruits in a list enterd by the user.'''
+"""Write a program  to store seven fruits in a list enterd by the user."""
 
 fruits = []
 
 f1 = input("Enter the fruit name: ")
 fruits.append(f1)
-f2= input("Enter the fruit name: ")
+f2 = input("Enter the fruit name: ")
 fruits.append(f2)
 f3 = input("Enter the fruit name: ")
 fruits.append(f3)

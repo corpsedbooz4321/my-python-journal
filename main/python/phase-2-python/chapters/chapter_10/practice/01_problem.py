@@ -1,4 +1,4 @@
-# create a clss 'programmer' for storing information of two programmer working
+# create a class 'programmer' for storing information of two programmer working
 # soft!
 class programmer:
     company = "Microsoft"

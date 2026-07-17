@@ -1,4 +1,5 @@
 class Employee:
+    name = (self,)
     language = "Py"
     salary = 1200000
 
