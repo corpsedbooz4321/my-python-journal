@@ -2,19 +2,24 @@
 get status(no. of seats) and get fare
 informatin of train running under indian Railways"""
 
-
-form random import randint
-
+from random import randint
 
 
-class Trian:
+class Train:
+    def __init__(self, trainNo):
+        self.trainNo = trainNo
+
     def book(self, fro, to):
-        print(f'Ticket is booked in train no: {trainNo}
-        form {fro} to {to}")
-    
-    def getstatus(self, trainNo):
-        pass
+        print(f"Ticket is booked with train no: {self.trainNo} from {fro} to {to}")
 
-    def getfare(self, trainNo, fro, to):
-        print(f"Ticket fare is train no: {trianno} format
-        {fro} to {to} is {random")
+    def getstatus(self):
+        print(f"Train no: {self.trainNo} is running on time")
+
+    def getFare(self, fro, to):
+        print(f"Ticket fare in train No: {self.trainNo} from {fro} to {to} is {randint(22, 3434)}")
+
+
+t = Train(13299)
+t.book("Patna", "America")
+t.getstatus()
+t.getFare("Patna", "America")
