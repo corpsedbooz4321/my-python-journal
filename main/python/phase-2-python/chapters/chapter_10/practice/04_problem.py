@@ -1,4 +1,4 @@
-
+'''using static method'''
 
 class calculator:
     def __init__(self, n):
