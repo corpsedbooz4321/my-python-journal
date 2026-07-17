@@ -1,5 +1,5 @@
 # create a class 'programmer' for storing information of two programmer working
-# soft!
+# in Microsoft!
 class programmer:
     company = "Microsoft"
 
