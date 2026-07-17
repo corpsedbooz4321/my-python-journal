@@ -1,0 +1,9 @@
+{
+  "name": "Aditya",
+  "Phone":"7474583483",
+  "skill": "a little bit of python",
+  "address":{
+    "city": "patna",
+    "pincode": 485493
+  }
+}
