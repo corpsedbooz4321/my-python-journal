@@ -1,0 +1,13 @@
+"""Create a class attribute a; create an object form it and set "a" directly using object.a=o Does this
+change the class attribute"""
+
+
+class Demo:
+    a = 4
+
+
+o = Demo()
+print(o.a)
+o.a = 0
+print(o.a)
+print(Demo.a)
